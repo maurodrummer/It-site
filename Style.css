@@ -1,0 +1,83 @@
+body {
+font-family: helvetica-bold, sans-serif;
+background-color: black;
+}
+
+
+.title {
+margin: 2rem;
+color: white;
+
+}
+
+.section--page {
+min-height: 30vh;
+padding: 2rem 1rem 1rem;
+color: white;
+
+}
+
+.nav {
+padding: 0;
+}
+.nav__item {
+list-style:none;
+display: block;
+color: black;
+margin: 2rem; 
+}
+
+.nav__link:hover {
+background: black;
+color: white;
+display: block;
+padding: 1rem; 
+}
+
+.second__hover:hover {
+color: red;
+font-weight: bolder;}
+
+.floatl {float: left;
+height: 20rem;}
+
+.floatr {float: right;
+height: 15rem;}
+
+.footer-text {min-height: 30vh;
+padding: 2rem 1rem 1rem;
+color: red;
+background: url(images/it-sewer.jpg);
+background-size: 100%;
+background-position: top;
+background-repeat:no-repeat;}
+
+.consistent_images
+{height: 12rem;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.center
+{display: block;
+margin-left: auto;
+margin-right: auto;}
+
+
+.fixed {
+position: fixed;
+right: 0;
+bottom: 0;
+padding: 1rem;
+background: black;
+color: white;
+margin: 1rem;
+}
+
+@media (min-width: 40rem) {
+.nav__item {
+display: inline-block;
+}
+.nav__link {
+display: inline;}
